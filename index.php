@@ -17,6 +17,6 @@ $client->setScopes([Google_Service_AndroidPublisher::ANDROIDPUBLISHER]);
 
 $service = new Google_Service_AndroidPublisher($client);
 $result = $service->purchases_subscriptions->get($packageName, $subscriptionId, $token);
-print_r($result);
+var_dump($result);
 
 ?>
