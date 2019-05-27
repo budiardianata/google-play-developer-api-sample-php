@@ -1,0 +1,15 @@
+{
+    "name": "budia/google-play-developer-api-sample",
+    "description": "this is sample",
+    "require": {
+        "google/apiclient": "^2.0",
+        "league/oauth2-google": "^3.0"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "budiardianata",
+            "email": "budiardianata@windowslive.com"
+        }
+    ]
+}
