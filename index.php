@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/vendor/autoload.php';
 /* -- setup -- */
-$authFilePath = __DIR__ . '/vendor/key.json';
+$authFilePath = __DIR__ . '/vendor/key.json'; //lokasi key
 putenv("GOOGLE_APPLICATION_CREDENTIALS={$authFilePath}");
 
 /* -- parameter -- */
